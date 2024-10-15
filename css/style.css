@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1000px;
+    height: 100vh;
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+}
+
+.gallery-name{
+    text-align: center;
+    color: rgb(239, 60, 0);
+    padding-top: 20px;
+}
+
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.gallery__item{
+    width: 300px;
+}
+
+@media screen and (max-width: 390px){
+    .container {
+        /* background: red; */
+    }
+
+    .gallery{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gallery__item{
+        margin-top: 20px;
+    }
+
+}
+
+   
